@@ -1,0 +1,156 @@
+/* *{
+    font-family: Arial,sans-serif;
+} */
+.detail__card{
+    margin-top:10px;
+}
+ .detail__img{
+     object-fit: cover;
+    max-width: 400px;
+    max-height: 700px;
+    height:400px;
+    width:500px;
+    border-radius: 5px;
+    box-shadow:1px 1px 2px grey;
+    justify-content: center;
+    float:left;
+    margin-top:20px;
+} 
+.detail__out{
+    display: flex;
+    flex-wrap:wrap;
+    background-color: white;
+    width:90%;
+    padding-bottom:10px;
+    padding-left:50px;
+    padding-top:50px;
+}
+.Comment{
+    background-color: white;
+    width:50%;
+    height: 450px;
+    margin-left:35px;
+    margin-top:30px;
+    padding-left:50px;
+    padding-top:20px;
+    float: left;
+    margin-right: 30px;
+}
+.inbox{
+    width:80%;
+    font-family: Arial,sans-serif;
+}
+.comment__heading{
+    border-bottom: 3px solid rgb(44, 44, 78);
+    padding-bottom: 10px;
+    width:30%;
+
+}
+.name{
+    max-width: 500px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 35px;
+    /* border-bottom: 1px solid grey; */
+}
+.author{
+    color:rgb(72, 109, 151);
+}
+.detail__nameyear{
+    font-size: 15px;
+    font-family: Arial,sans-serif;
+}
+.detail__year{
+    color:grey;
+}
+.detail__out, .view__detail{
+    margin-left:35px;
+    margin-top:30px;
+}
+.detail__nameyear{
+    margin-left:40px;
+}
+.banner{
+    width:100%;
+}
+.dimensions{
+    color:grey;
+}
+.shopbanner{
+    margin-top:20px;
+    width:100%;
+}
+.title{
+    font-weight:bold;
+}
+.submit__button{
+    background-color:rgb(146, 43, 25);
+    color:white;
+    padding:5px;
+    width: 30%;
+    height:10%;
+    margin: 10px 0px;
+}
+.comments{
+    font-family: Arial,sans-serif;
+    /* float:left; */
+    
+}
+.commented{
+    color:black;
+}
+p{
+    font-weight: inherit;
+}
+.comment__single{
+    background-color: white;
+    height: 80px;
+    width:400px;
+    display: flex;
+    /* box-shadow: 3px 3px 3px grey; */
+    margin-bottom: 5px;
+    
+    /* flex-direction: row; */
+   
+}
+.comment__single:hover{
+    box-shadow: 0px 0px 20px grey;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    
+}
+.avatar{
+    padding:20px;
+}
+
+.username{
+    color:black;
+    font-size:15px;
+    font-family: Arial,sans-serif;
+}
+
+.username .textarea{
+    color:black;
+    font-size:15px;
+    font-family: Arial,sans-serif;
+   
+}
+.user__name{
+    margin:10px 0px;
+}
+.Comment{
+    font-family: Arial,sans-serif;
+}
+.comment__card{
+    margin:50px;
+    /* background-color: white; */
+ 
+}
+/* .topic{
+    background-color: white;
+    height:30px;
+    width:400px; 
+}
+*/

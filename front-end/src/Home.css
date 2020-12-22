@@ -1,0 +1,121 @@
+.home__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+.home__row{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    padding-top:30px;
+}
+.homes__image{
+    width:100%;
+    z-index: -1;
+    margin-bottom: 80px;
+    mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0)); 
+}
+.nonfiction__row, .authors__row, .fiction__row, .home__row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+   justify-content: center;
+   width:100%;
+   margin: 0 auto;
+}
+.authors__row{
+    width:75%;
+}
+.home__text{
+    font-size: 15px;
+}
+.home__note{
+   justify-content: center;
+    width:75%;
+    margin-left: 125px;
+    padding:40px;
+    margin-top:50px;
+    background-color: white;
+    /* border-radius: 3px; */
+}
+.home__note h4{
+    border-bottom: 3px solid rgb(55, 55, 85);
+    padding-bottom:5px;
+}
+.home__seemore{
+    text-align:center;
+    text-decoration: none;
+    color:rgb(22, 70, 102);
+    margin-top:20px;
+}
+.copyrights{
+    text-align:center;  
+    margin-top: 0px;;
+}
+
+.Top__title{
+    background-color:white;
+    margin:0 auto;
+    padding-top:10px;
+    max-width:95%;
+    height:35px;
+    width:95%;
+    max-height:35px;
+    text-align: center;
+    margin-bottom: 10px;
+    /* border-radius:5px; */
+    box-shadow: 5px 8px 10px grey;
+    justify-content: center;
+}
+.home__notes{
+    margin-left: 125px;
+    height:400px;
+    padding:40px;
+    width:75%;
+    margin-top:50px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.fiction__title,.nonfiction__title,.authors__title {
+    background-color:white; 
+    margin:0 auto;
+    padding-top:10px;
+    width:95%;
+    height:35px;
+    text-align: center;
+    margin-bottom: 5px;
+    /* border-radius:5px; */
+    box-shadow: 5px 8px 6px grey;
+    justify-content: center;
+}
+.charts__title{
+    margin-bottom: 5px;
+}
+.binimage{
+    width:100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.binerimage{
+    width:100%;
+    height:200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* margin-left:10px; */
+    /* margin-right:10px;  */
+}
+.fiction__title{
+    margin-bottom:20px;
+}
+.nonfiction__title{
+    margin-bottom:30px;
+    margin-top: 30px;
+}
+.view__more{
+    padding-left:750px;
+    color:blue;
+}

@@ -1,0 +1,8 @@
+.authorOne{
+    display: flex;
+    padding:15px;
+}
+.product{
+    padding: 10px;
+    color:rgb(71, 28, 28);
+}

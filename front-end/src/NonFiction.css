@@ -1,0 +1,37 @@
+.nonfiction{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-around;
+    margin:10px;
+    padding: 20px;
+    height: 100%;
+    width:100%;
+    max-height: 400px;
+    max-width: 250px;
+}
+.nonfiction > img{
+    max-height: 150px;
+    width:100%;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.nonfiction__price{
+    margin-top:5px;
+}
+.nonfiction__info{
+    height:100px;
+    margin-bottom:15px;
+}
+.nonfiction > button{
+    background:#f0c14b;
+    border:1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color:#111;
+}
+.nonfiction__start{
+    color:#f0c14b;
+}

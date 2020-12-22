@@ -1,0 +1,23 @@
+.icon__nav{
+   margin-left:500px;
+   margin-top: 30px;
+}
+.icon{
+    margin:15px;
+
+}
+.icon:hover{
+    color:crimson;
+}
+.fb:hover{
+    color:darkblue;
+}
+
+.tag{
+  margin-left: 620px;
+}
+.delivery{
+    width:80%;
+    text-align: center;
+    justify-content: center;
+}

@@ -1,0 +1,17 @@
+details{
+    display:flex;
+}
+button{
+    margin:5px;
+    background-color:transparent;
+    color:rgb(54, 25, 25);
+    border:none;
+    font-size:15px;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.buttons:hover:not(.active) {background-color: #ddd;}

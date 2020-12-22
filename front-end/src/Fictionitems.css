@@ -1,0 +1,23 @@
+.binsimage{
+    width:100%;
+    margin-left:0px;
+    
+}
+
+.backtohome {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    font-weight: bold;
+    width:10%;
+    text-decoration: none;
+   margin:15px auto;
+  }
+  
+  .backtohome:hover {opacity: 1}
